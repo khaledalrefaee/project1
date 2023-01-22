@@ -46,8 +46,10 @@ Route::get('/user/{id}' , [SmraController::class  , 'show' ]);
 
 Route::get('/employee/{id}' , [SmraController::class , 'index']);
 
-
+*/
 
 Route::get('xx',function(){
     return 'ok';
-});*/
+});
+
+
